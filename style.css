@@ -1,0 +1,325 @@
+/* start of body */
+@import url(https://allfont.net/allfont.css?fonts=agency-fb);
+
+body{
+    margin:0;
+    top:0;
+	color: #545454;
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: blanchedalmond;
+    background-color: #000000;
+  }
+
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'agency fb',arial;
+}
+ 
+h1{
+    font-family:'agency fb',arial;
+    text-align: center;
+    color: #fdfdfd;
+    
+    outline: 0px;
+    text-shadow: 8px 10px 8px black;
+    
+}
+
+.h2 {
+    font-family:'agency fb',arial;
+    text-align: center;
+    color: #fdfdfd;
+    font-size: 90px;
+
+}
+
+.h3 {
+    font-family:'agency fb',arial;
+    text-align: center;
+    color: #fdfdfd;
+    font-size: 90px;
+
+}
+
+.nav-bar{
+    height: 100px;
+    width: 100%;
+    
+    background-color:black;
+}
+
+
+.logo{
+    height: 100px;
+}
+
+.logo2{
+    height: 100px;
+}
+
+.nav-list{
+    float: right;
+    margin-right: 78px;
+    font-size: 25px;
+
+}
+
+.item{
+    display: inline-block;
+    margin-right: 60px;
+    margin-top: 5px;
+    border: 1px ;
+    border-radius: 10px;
+    color: white;
+    font-family: 'agency fb',arial;
+    font-size: 40px;
+    display: auto;
+    
+}
+
+
+
+.item:hover{
+    /* background-color: black; */
+    color:black;
+  
+}
+
+/* start of banner */
+
+.banner {
+    height:700px;
+    width:100;
+    background-color: rgb(235, 213, 180);
+    background-size: cover;
+    display: auto;
+    background-color: black;
+    background-image: url('img/IntroCollage.jpg');
+    background-position: center center;
+ 
+    
+}
+
+.banner2 {
+    height:650px;
+    width:100;
+    background-color: rgb(235, 213, 180);
+    background-size: cover;
+    background-color: black;
+    background-image: url('img/MockupAutoBio.jpg');
+    background-position: center center;
+}
+
+.banner3 {
+    height:650px;
+    width:100;
+    background-color: rgb(235, 213, 180);
+    background-size: cover;
+    background-color: black;
+    background-position: center center;
+}
+
+.banner5 {
+	background: url('img/MockupGallaryBackground.jpg');
+	padding-top: 150px;
+    padding-bottom: 150px;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    font-family: 'agency fb',arial;
+}
+
+.banner5 h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 70px;
+	line-height: 35px;
+	color: #eee;
+	text-transform: capitalize;
+}
+.banner5 h3 {
+	margin-top: 20px;
+	margin-bottom: 25px;
+	font-size: 80px;
+	line-height: 25px;
+	color: #ddd;
+	text-transform: uppercase;
+	letter-spacing: 0.055em;
+}
+
+.banner5 .btn {
+	padding: 7px 25px;
+	font-size: 14px;
+	border-radius: 30px;
+}
+
+
+.banner-text{
+    font-size: 110px;
+    height: 100px;
+    text-align: center;
+    background-color: rgba(74, 85, 240, 0);
+    display: inline-block;
+    margin-top: 120px;
+    margin-left: 530px;
+    border-radius: 10px;
+
+}
+
+
+
+/* start of main content */
+
+.content{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+}
+
+.column {
+    height:560px;
+    width: 47%;
+    border: 1px Solid red;
+    background-color: black;
+    font-size: 7em;
+    color: blanchedalmond;
+    font-family: 'agency fb',arial; 
+    text-align: center;
+
+}
+
+
+
+
+.intro-one {
+    font-size: 7em;
+    color: blanchedalmond;
+    font-family: 'agency fb',arial; 
+    text-align: center;
+}
+
+.intro-two {
+    font-size: 7em;
+    color: blanchedalmond;
+    font-family: 'agency fb',arial; 
+    text-align: center;
+}
+
+
+.picture{
+    height:100px;
+    margin-top: 1% ;
+    margin-left: 30%;
+    display: block;
+    /* margin: auto; */
+}
+ 
+.category-grid-item {
+    float: center;
+    width: 23.5%;
+    margin-right: 2%;
+    margin-bottom: 20px;
+}
+
+
+
+.grid-container1 { 
+    background-color: black;
+    font-family: 'agency fb',arial; 
+    opacity: 100%;
+    width: 1520px;
+    height: 1100px;
+    columns: 1;
+    display: grid;
+    grid-gap: 150px;
+    border-color: red;
+  
+    
+  }
+.we2 {
+  font-family: 'agency fb',arial;
+  margin-bottom: 5px;
+  padding: 5px ;
+  font-size: 20px;
+  line-height: 10px;
+  color: crimson;
+}
+
+
+  .subhead2 {
+    font-size: 50px;
+    text-align: center;
+    color: blanchedalmond;
+    width: auto;
+    height: 50px;
+    margin: 40px;
+
+  }
+
+
+  .three {
+    font-size: 40px;
+    text-align: center;
+    color: blanchedalmond;
+    height: 4px;
+    width: auto;
+    background-color: red;
+    margin-bottom: 40px;
+  }
+
+
+
+
+
+
+
+ /*
+
+
+/* Style all font  icons */
+.fa {
+    padding: 40px;
+    font-size: 20px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  .fa-instagram {
+    background: none;
+    color: rgb(184, 184, 184);
+  }
+
+  /* Facebook */
+  .fa-facebook {
+    background: none;
+    color: rgb(184, 184, 184);
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background:none;
+    color: rgb(184, 184, 184);
+  }
+
+/* start of footer */
+
+footer{
+    height: 60px;
+    display: block;
+    width: 100%;
+    background-color: red;
+}
